@@ -1,0 +1,120 @@
+.uktell-navbar{
+    background-image: url(../image/navbar.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 0 25px;
+}
+
+.brand-img{
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondary-nav{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.secondary-nav .nav-item a{
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.active{
+    color: #189fd8 !important;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.banner-section{
+    background-image: url(../image/top-banner.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 130px;
+}
+
+.banner-section h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #169FD8;
+}
+
+.banner-bg-title{
+    font-size: 90px;
+    padding:0 !important;
+}
+.banner-sm-title{
+    font-size: 60px;
+    padding: 0 !important;
+}
+
+.dash{
+    height: 5px;
+    background-color: #169FD8;
+    width: 80px;
+}
+
+.banner-text{
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.banner-text li {
+    list-style: none;
+    line-height: 60px;
+}
+
+.banner-text li::before {
+    content: "\2022";
+    color: #169FD8;
+    font-weight: 800;
+    display: inline-block; 
+    width: 1.25em;
+    margin-left: -1em;
+}
+
+
+h5{
+    margin: 5px 0;
+}
+.btn-view{
+    color: #fff;
+    background-color: #fff;
+    margin:0px !important;
+}
+.btn-view:hover{
+    color: #fff;
+}
+
+.pkg-card{
+    text-align: center;
+}
+
+.pkg-card:hover> .btn-view{
+    background-color:#000;
+    color: #fff;
+}
+
+.pkg-card:hover{
+    background-color:#169FD8;
+    color: white;
+    cursor: pointer;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Bebas Neue', cursive; */
+
