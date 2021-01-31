@@ -91,6 +91,17 @@
 h5{
     margin: 5px 0;
 }
+
+.content-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 40px 0;
+}
+
 .btn-view{
     color: #fff;
     background-color: #fff;
@@ -115,6 +126,141 @@ h5{
     cursor: pointer;
 }
 
+
+
+.sim-section{
+    background-image: url(../image/sim.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.uktell-sim-card{
+    text-align: center;
+    padding: 35px;
+    background-color: #e7e7e8;
+    border-radius: 10px;
+}
+.sim-title{
+    font-size: 56px;
+    font-family: 'Bebas Neue', cursive; 
+}
+.sim-text{
+    font-size: 26px;
+    font-weight: 700;
+    color: #2f2f2f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-color{
+    color: #169FD8;
+}
+
+.bg-package{
+    background-color: #E9ECFA;
+}
+.package-list{
+    list-style: none;
+    padding: 10px 0 0px 10px;
+    margin-bottom: 5px;
+}
+.package-list li{
+    border-bottom: 1px solid lightgray;
+    line-height: 30px;
+}
+.border-none{
+    border-bottom: none !important;
+}
+.package-title{
+    margin-top: 62px;
+    margin-bottom: 55px;
+}
+
+.bg-package-hover:hover{
+    background-color: #169FD8;
+    color: #fff;
+}
+
+.bg-package-hover:hover> .bg-package{
+    background-color: #169FD8;
+}
+.bg-package-hover:hover > button{
+    background-color: #000;
+    color: white
+}
+.pkg-opr-icon{
+    width: 100px;
+    padding-top: 20px;
+}
+
+
+.btn-view-plan{
+    color: #fff;
+}
+
+.free-int-min-lh{
+    line-height: 20px !important;
+    padding-bottom: 10px;
+}
+.free-int-min-p{
+    padding-bottom: 20px;
+}
+
+
+
+.btn-see-details{
+    position: relative;
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 40px 8px 20px;
+    border-radius: 25px;
+}
+.btn-see-details:hover{
+    background-image: linear-gradient(45deg, #0092d1, #006c91);
+    color: #fff;
+}
+.btn-next-icon{
+    position: absolute;
+    border: 3px solid #1cadeb;
+    background-color:#169FD8 ;
+    padding: 18px;
+    bottom:-10px;
+    right: -25px;
+    border-radius: 50%;
+}
+
+.choosen-q-title{
+    font-weight: 700;
+    font-size: 36px;
+}
+
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Bebas Neue', cursive; */
 
+footer{
+    background-image: url(../image/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-logo{
+    width: 200px;
+    margin: 30px;
+}
+
+footer p{
+    margin-bottom:8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.social-logo{
+    width: 30px;
+    padding: 5px;
+}
+.social-block{
+    margin-top: 50px;
+    border-radius: 15px;
+}
