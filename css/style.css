@@ -55,6 +55,7 @@
     font-size: 90px;
     padding:0 !important;
 }
+
 .banner-sm-title{
     font-size: 60px;
     padding: 0 !important;
@@ -111,6 +112,8 @@ h5{
     color: #fff;
 }
 
+
+/* Package Card */
 .pkg-card{
     text-align: center;
 }
@@ -126,35 +129,6 @@ h5{
     cursor: pointer;
 }
 
-
-
-.sim-section{
-    background-image: url(../image/sim.png);
-    background-position: center center;
-    background-size: cover;
-    padding: 80px 0;
-}
-
-.uktell-sim-card{
-    text-align: center;
-    padding: 35px;
-    background-color: #e7e7e8;
-    border-radius: 10px;
-}
-.sim-title{
-    font-size: 56px;
-    font-family: 'Bebas Neue', cursive; 
-}
-.sim-text{
-    font-size: 26px;
-    font-weight: 700;
-    color: #2f2f2f;
-    font-family: 'Poppins', sans-serif;
-}
-
-.text-color{
-    color: #169FD8;
-}
 
 .bg-package{
     background-color: #E9ECFA;
@@ -193,7 +167,6 @@ h5{
     padding-top: 20px;
 }
 
-
 .btn-view-plan{
     color: #fff;
 }
@@ -207,6 +180,34 @@ h5{
 }
 
 
+/* Sim Offer */
+.sim-section{
+    background-image: url(../image/sim.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.uktell-sim-card{
+    text-align: center;
+    padding: 35px;
+    background-color: #e7e7e8;
+    border-radius: 10px;
+}
+.sim-title{
+    font-size: 56px;
+    font-family: 'Bebas Neue', cursive; 
+}
+.sim-text{
+    font-size: 26px;
+    font-weight: 700;
+    color: #2f2f2f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-color{
+    color: #169FD8;
+}
 
 .btn-see-details{
     position: relative;
@@ -218,7 +219,6 @@ h5{
     border-radius: 25px;
 }
 .btn-see-details:hover{
-    background-image: linear-gradient(45deg, #0092d1, #006c91);
     color: #fff;
 }
 .btn-next-icon{
@@ -231,13 +231,11 @@ h5{
     border-radius: 50%;
 }
 
+
 .choosen-q-title{
     font-weight: 700;
     font-size: 36px;
 }
-
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'Bebas Neue', cursive; */
 
 footer{
     background-image: url(../image/footer-bg.png);
@@ -263,4 +261,82 @@ footer p{
 .social-block{
     margin-top: 50px;
     border-radius: 15px;
+}
+
+
+
+/* ===================================Responsive ========================== */
+/*  Mobile Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .uktell-navbar{
+        background-image: url(../image/navbar.png);
+        background-position: center center;
+        background-size: cover;
+        padding: 0 15px;
+    }
+    .secondary-nav{
+        margin-bottom: 20px;
+        display: block;
+    }
+    .secondary-nav .nav-item{
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+    }
+    .search-box-res{
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    .banner-section{
+        background-image: url(../image/top-banner.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px 20px;
+    }
+    
+    .banner-bg-title{
+        font-size: 80px;
+    }
+    .banner-sm-title{
+        font-size: 50px;
+    }
+    .banner-text{
+        color: white;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .content-title{
+        font-size: 25px;
+        padding: 0;
+    }
+    .btn-view-plan{
+        margin-bottom: 10px;
+    }
+        
+    /* Sim Offer */
+    .sim-section{
+        padding: 50px 0;
+    }
+
+    .uktell-sim-card{
+        padding: 20px 10px;
+        
+    }
+    .sim-title{
+        font-size: 38px;
+    }
+    .sim-text{
+        font-size: 18px;        
+    }
+    .choosen-q-title{
+        font-size: 24px;
+    }
+    .footer-box{
+        background-color: #169FD8;
+    }
+    .social-block{
+        margin: 15px 0;
+    }
 }

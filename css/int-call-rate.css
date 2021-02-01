@@ -1,0 +1,197 @@
+.uktell-navbar{
+    background-image: url(../image/navbar.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 0 25px;
+}
+
+.brand-img{
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondary-nav{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.secondary-nav .nav-item a{
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.active{
+    color: #189fd8 !important;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+/*=============================== Banner Section Css =============================== */
+.callrate-banner{
+    background-image: url(../image/call-rate-bg.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.callrate-big-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.text-color{
+    color: #169FD8;
+}
+
+.btn-color{
+    padding: 8px 80px;
+    background-color: #E7E7E8;
+    box-shadow: 0px 0px 20px #646464;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.btn-color:hover, .btn-active{
+    background-color: #1889b3;
+    color: #fff;
+}
+
+
+.call-rate-description{
+    margin-bottom: 0;
+}
+.btn-terms{
+    width: 80%;
+    border: 2px solid #169FD8;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+.btn-next-icon{
+    border: 3px solid #21bcff;
+    background-color:#169FD8 ;
+    box-shadow: 0px 0px 15px #646464;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.flag{
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.t-bold{
+    font-weight: 700;
+}
+
+
+
+
+
+/*================ Footer section Css =================*/
+footer{
+    background-image: url(../image/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-logo{
+    width: 200px;
+    margin: 30px;
+}
+
+footer p{
+    margin-bottom:8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.social-logo{
+    width: 30px;
+    padding: 5px;
+}
+.social-block{
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+
+
+/* ===================================Responsive ========================== */
+/*  Mobile Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .uktell-navbar{
+        background-image: url(../image/navbar.png);
+        background-position: center center;
+        background-size: cover;
+        padding: 0 15px;
+    }
+    .secondary-nav{
+        margin-bottom: 20px;
+        display: block;
+    }
+    .secondary-nav .nav-item{
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+    }
+    .search-box-res{
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+
+    .callrate-big-title{
+        font-size: 60px;
+    }
+    
+    
+    .btn-color{
+        padding: 8px 40px;
+        background-color: #E7E7E8;
+        box-shadow: 0px 0px 12px #646464;
+        margin: 0 0 20px 0;
+    }
+    
+    .btn-color:hover, .btn-active{
+        background-color: #1889b3;
+        color: #fff;
+    }
+    .flag{
+        width: 100px;
+        height: 100px;
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px gray;
+    }
+
+
+    .footer-box{
+        background-color: #169FD8;
+    }
+    .social-block{
+        margin: 15px 0;
+    }
+}
