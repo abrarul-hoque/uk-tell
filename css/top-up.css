@@ -42,40 +42,58 @@
 
 
 /*=============================== Banner Section Css =============================== */
-.renew-banner{
-    background-image: url(../image/renew-bg.png);
+.topup-banner{
+    background-image: url(../image/topup-bg.png);
     background-position: center center;
     background-size: cover;
     padding: 10px 0;
 }
 
-.renew-form{
-    width: 50%;
-    padding: 80px 60px;
-    margin: 100px 0;
-    background-color: #c3c2bfb2;
+.topup-big-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    padding: 150px 0;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.renew-banner .form-control, .renew-banner .input-group, .renew-banner .form-select{
-    background-color: #9CB5BD;
-    border:none;
-    border-radius: 20px;
+.topup-text{
+    margin: 100px 20px;
+}
+.topup-text p{
+    font-weight: 500;
 }
 
-.renew-banner .form-control::placeholder{
-    color: #000;
+
+.text-color{
+    color: #169FD8;
 }
 
+    
 .btn-color{
-    padding: 6px 20px;
-    background-image: linear-gradient(45deg, #17a2dd, #167b9c);
-    color: #000;
-    font-size: 18px;
+    background-color: #169FD8;
+    color: #fff;
+    box-shadow: 0px 0px 6px #646464;
     border-radius: 25px;
+    font-weight: 700;
+    padding:8px 20px;
 }
+    
+.btn-color:hover{
+    background-color: #169FD8;
+    color: #fff;
+    
+}
+
+.collapse-heading{
+    margin:0;
+}
+
+.topup-card{
+    border: none;
+    margin-bottom: 20px;
+}
+
+
 
 
 
@@ -108,6 +126,10 @@ footer p{
 
 
 
+
+
+
+
 /* ===================================Responsive ========================== */
 /*  Mobile Screen */
 @media only screen and (min-width: 300px) and (max-width: 500px){
@@ -131,29 +153,21 @@ footer p{
     }
 
 
-    
-    .renew-form{
-        width: 90%;
-        padding: 40px 30px;
-        margin: 60px 0;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    .topup-big-title{
+        font-size: 70px;
+        padding: 100px 0;
     }
 
-    
-    
-    .btn-color:hover, .btn-active{
-        background-color: #1889b3;
-        color: #fff;
+    .topup-text{
+        margin: 60px 10px;
     }
-    .flag{
-        width: 100px;
-        height: 100px;
-        border-radius: 25px;
-        box-shadow: 0px 0px 20px gray;
+            
+    .btn-color{
+        font-weight: 400;
+        font-size: 14px;
+        padding:8px 15px;
     }
-
+    
 
     .footer-box{
         background-color: #169FD8;
@@ -161,5 +175,4 @@ footer p{
     .social-block{
         margin: 15px 0;
     }
-    
 }
