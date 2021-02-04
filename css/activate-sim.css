@@ -40,6 +40,7 @@
 }
 
 
+
 /* Navbar  behavior on Scrolling */
 .primary-nav {
     transition: all 0.4s ease-in-out;
@@ -63,73 +64,63 @@
 
 
 
-
-
 /*=============================== Banner Section Css =============================== */
-.sim-package-banner{
-    background-image: url(../image/post-pay-bg.png);
+.activate-sim-banner{
+    background-image: url(../image/activate-sim-bg.png);
     background-position: center center;
     background-size: cover;
     padding: 10px 0;
 }
 
-.sim-package-big-title{
+.activate-sim-big-title{
     font-family: 'Bebas Neue', cursive;
     font-size: 90px;
-    padding: 180px 0;
+    padding: 150px 0;
     text-align: center;
 }
+
+.activate-sim-text{
+    margin: 100px 0;
+}
+.activate-sim-text p{
+    font-weight: 500;
+}
+
+
 
 .text-color{
     color: #169FD8;
 }
-
-.btn-color{
-    padding: 8px 80px;
-    background-color: #E7E7E8;
-    box-shadow: 0px 0px 20px #646464;
-    border-radius: 25px;
-    font-weight: 700;
-    font-size: 20px;
-    margin-left: 30px;
-}
-
-.btn-color:hover, .btn-active{
-    background-color: #1889b3;
-    color: #fff;
-}
-
 .t-bold{
     font-weight: 700;
-    color: gray;
 }
 
-.card-offer{
-    border: none;
-    background-color: #F0F1F1;
-    border-right: 10px solid #169FD8;
+.activate-sim-text .form-control{
+    border-radius: 20px;
+    background-color: #c4e0e9;
+    padding: 8px 15px;
+}
+.activate-sim-text .form-control::placeholder{
+    color: #000;
+    font-size: 18px;
 }
 
-.offer-card-title{
-    font-size: 32px;
-    text-align: end;
-    color: #4b4b4b;
-}
-.offer-price{
-    font-size: 48px;
-    color: #4b4b4b;
-    margin: 0;
+
+.btn-color{
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 35px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px gray;
 }
 
-.btn-buy-plan{
-    padding: 6px 20px;
-    background-color: #2E2E2E;
-    color: #fff;
+.blank-box{
+    height: 200px;
+    background-color: #dcdcdc;
 }
-.btn-buy-plan:hover{
-    background-color: #141414;
-    color: #fff;
-}
+
 
 
 /* Footer section Css */
@@ -198,29 +189,12 @@ footer p{
     }
 
 
-    .callrate-big-title{
-        font-size: 60px;
-    }
-    
-    
-    .btn-color{
-        padding: 8px 40px;
-        background-color: #E7E7E8;
-        box-shadow: 0px 0px 12px #646464;
-        margin: 0 0 20px 0;
-    }
-    
-    .btn-color:hover, .btn-active{
-        background-color: #1889b3;
-        color: #fff;
-    }
-    .flag{
-        width: 100px;
-        height: 100px;
-        border-radius: 25px;
-        box-shadow: 0px 0px 20px gray;
+    .activate-sim-big-title{
+        font-size: 70px;
+        padding: 100px 0;
     }
 
+    
 
     .footer-box{
         background-color: #169FD8;
@@ -228,5 +202,4 @@ footer p{
     .social-block{
         margin: 15px 0;
     }
-    
 }

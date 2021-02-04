@@ -41,6 +41,31 @@
 
 
 
+
+/* Navbar  behavior on Scrolling */
+.primary-nav {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+ }
+
+.shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 80px !important;
+}
+
+.shrink .navbar-brand img{
+    width: 100px !important;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
 /*=============================== Banner Section Css =============================== */
 .callrate-banner{
     background-image: url(../image/call-rate-bg.png);
@@ -56,8 +81,12 @@
     text-align: center;
 }
 
+
 .text-color{
     color: #169FD8;
+}
+.t-bold{
+    font-weight: 700;
 }
 
 .btn-color{
@@ -76,21 +105,27 @@
 }
 
 
-.call-rate-description{
-    margin-bottom: 0;
+
+.country-select >  .input-group{
+        position: relative;
+        flex: 1 1 auto;
+        width: 20% !important;
+        margin-left: 10px;
+        border-radius: 10px;
 }
+
 .btn-terms{
     width: 80%;
     border: 2px solid #169FD8;
     text-align: center;
     margin-left:auto;
     margin-right: auto;
-    margin-top: 180px;
 }
 
 .btn-next-icon{
     border: 3px solid #21bcff;
-    background-color:#169FD8 ;
+    background-color:#169FD8;
+    color: #fff;
     box-shadow: 0px 0px 15px #646464;
     padding: 10px;
     border-radius: 50%;
@@ -99,11 +134,54 @@
 
 
 
+/* CSS for card Offers */
+.t-bold{
+    font-weight: 700;
+}
+
+.card-offer{
+    border: none;
+    background-color: #F0F1F1;
+    border-right: 6px solid #169FD8;
+    padding: 0 10px;
+}
+
+.offer-card-title{
+    font-size: 20px;
+    text-align: end;
+    color: #4b4b4b;
+    margin-top: 20px;
+}
+.offer-price{
+    font-size: 32px;
+    color: #4b4b4b;
+    margin: 0;
+}
+
+.deal-offer .col-md-3{
+    padding: 6px;
+}
+.card-offer small{
+    font-size: 12px;
+}
+
+.btn-buy-plan{
+    padding: 6px 20px;
+    background-color: #2E2E2E;
+    color: #fff;
+}
+.btn-buy-plan:hover{
+    background-color: #141414;
+    color: #fff;
+}
 
 
 
 
-/*================ Footer section Css =================*/
+
+
+
+/* Footer section Css */
 footer{
     background-image: url(../image/footer-bg.png);
     background-position: center;
@@ -115,10 +193,22 @@ footer{
     margin: 30px;
 }
 
+footer h6{
+    margin-bottom:8px;
+    font-size: 12px;
+    font-weight: 600;
+}
 footer p{
     margin-bottom:8px;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 600;
+}
+
+.subscribe-email{
+    font-size: 14px;
+    padding: 2px 8px;
+    color: #000;
+    text-decoration: none;
 }
 
 .social-logo{
@@ -126,9 +216,11 @@ footer p{
     padding: 5px;
 }
 .social-block{
-    margin-top: 50px;
     border-radius: 15px;
+    width: 80%;
+    float:right;
 }
+
 
 
 

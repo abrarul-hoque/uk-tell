@@ -41,6 +41,29 @@
 
 
 
+/* Navbar  behavior on Scrolling */
+.primary-nav {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+ }
+
+.shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 80px !important;
+}
+
+.shrink .navbar-brand img{
+    width: 100px !important;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+
+
+
 /*=============================== Banner Section Css =============================== */
 .about-banner{
     background-image: url(../image/about-bg.png);
@@ -70,7 +93,7 @@
 }
 
 
-/*================ Footer section Css =================*/
+/* Footer section Css */
 footer{
     background-image: url(../image/footer-bg.png);
     background-position: center;
@@ -82,10 +105,22 @@ footer{
     margin: 30px;
 }
 
+footer h6{
+    margin-bottom:8px;
+    font-size: 12px;
+    font-weight: 600;
+}
 footer p{
     margin-bottom:8px;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 600;
+}
+
+.subscribe-email{
+    font-size: 14px;
+    padding: 2px 8px;
+    color: #000;
+    text-decoration: none;
 }
 
 .social-logo{
@@ -93,9 +128,11 @@ footer p{
     padding: 5px;
 }
 .social-block{
-    margin-top: 50px;
     border-radius: 15px;
+    width: 80%;
+    float:right;
 }
+
 
 
 

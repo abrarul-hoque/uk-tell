@@ -40,7 +40,8 @@
 }
 
 
-/* Navbar behavior on Scrolling */
+
+/* Navbar  behavior on Scrolling */
 .primary-nav {
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -63,104 +64,123 @@
 
 
 
-
-
-
-
-.banner-section{
-    background-image: url(../image/top-banner.png);
+/*=============================== Banner Section Css =============================== */
+.account-page-banner{
+    background-image: url(../image/after-login-bg.png);
     background-position: center center;
     background-size: cover;
-    padding: 50px 130px;
+    padding: 250px 0;
 }
 
-.banner-section h1{
+.account-page-big-title{
     font-family: 'Bebas Neue', cursive;
-    color: #169FD8;
-}
-
-.banner-bg-title{
     font-size: 90px;
-    padding:0 !important;
+    padding: 150px 0;
+    text-align: center;
 }
 
-.banner-sm-title{
-    font-size: 60px;
-    padding: 0 !important;
+.account-page-text{
+    margin: 20px 0;
 }
-
-.dash{
-    height: 5px;
-    background-color: #169FD8;
-    width: 80px;
-}
-
-.banner-text{
-    color: white;
-    font-family: 'Poppins', sans-serif; 
-    font-size: 32px;
+.account-page-text p{
     font-weight: 500;
 }
 
-.banner-text li {
-    list-style: none;
-    line-height: 60px;
-}
 
-.banner-text li::before {
-    content: "\2022";
+
+.text-color{
     color: #169FD8;
-    font-weight: 800;
-    display: inline-block; 
-    width: 1.25em;
-    margin-left: -1em;
 }
-
-
-h5{
-    margin: 5px 0;
-}
-
-.content-title{
-    text-align: center;
+.t-bold{
     font-weight: 700;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 40px 0;
 }
 
-.btn-view{
-    color: #fff;
-    background-color: #fff;
-    margin:0px !important;
+.account-page-text .form-control{
+    border-radius: 20px;
+    background-color: #c4e0e9;
+    padding: 8px 15px;
 }
-.btn-view:hover{
-    color: #fff;
+.account-page-text .form-control::placeholder{
+    color: #000;
+    font-size: 18px;
 }
+
+
+.btn-color{
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 35px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px gray;
+}
+
+
+/* single package (Circle) css */
+
+.pkg-volume-text{
+    background-color: #169FD8;
+    border-radius: 50%;
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+}
+.volume-title{
+    font-size: 58px;
+    font-weight: 700;
+}
+
+
+.single-volume{
+    background-color: #169FD8;
+    border-radius: 50%;
+    padding: 25px;
+    text-align: center;
+}
+
+.single-v-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.single-volume h2{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.progress{
+    height:15px;
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+    margin: 5px auto 15px auto;
+}
+
+.btn-account{
+    width: 150px;
+    background-image: linear-gradient(180deg, #FDFDFD, #D8D8D8);
+    color: #169FD8;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0px 3px 8px gray;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.btn-account-active, .btn-account:hover{
+    background-image: linear-gradient(180deg, #B0B4B5, #DCDCDA);
+    color: #494949;
+}
+
+
 
 
 
 /*================== Package Card =================*/
-.pkg-card{
-    text-align: center;
-}
-
-.pkg-card:hover> .btn-view{
-    background-color:#000;
-    color: #fff;
-}
-
-.pkg-card:hover{
-    background-color:#169FD8;
-    color: white;
-    cursor: pointer;
-}
-
 
 .bg-package{
     background-color: #E9ECFA;
+    color: #169FD8;
+    border-radius: 12px;
 }
 .package-list{
     list-style: none;
@@ -170,109 +190,84 @@ h5{
 .package-list li{
     border-bottom: 1px solid lightgray;
     line-height: 30px;
+    font-weight: 700;
 }
 .border-none{
     border-bottom: none !important;
 }
 .package-title{
-    margin-top: 62px;
-    margin-bottom: 80px;
+    margin-top: 75px;
+    margin-bottom: 60px;
+    background-color:#000;
+    color: #169FD8;
+    border-radius: 10px;
+}
+.package-title li{
+    border: none;
 }
 
 .small-pkge-text{
     font-size: 14px;
 }
 
-.bg-package-hover:hover{
+.bg-package:hover{
     background-color: #169FD8;
     color: #fff;
 }
 
-.bg-package-hover:hover> .bg-package{
+.bg-package-special-hover:hover> .bg-package-hover{
     background-color: #169FD8;
+    color: #fff;
+    border-radius: 8px;
 }
-.bg-package-hover:hover > button{
-    background-color: #000;
+.bg-package-special-hover:hover> .bg-package-hover > .bg-package{
+    background-color: #169FD8;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.bg-package-special-hover:hover > button{
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
     color: white
-}
-.pkg-opr-icon{
-    width: 100px;
-    padding-top: 20px;
 }
 
 .btn-view-plan{
     color: #fff;
     margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 5px 25px;
+    font-weight: 700;
 }
 
 
 
-
-
-/* Sim Offer */
-.sim-section{
-    background-image: url(../image/sim.png);
-    background-position: center center;
-    background-size: cover;
+.blank-box{
     padding: 80px 0;
+    background-color: #169FD8;
+    text-align: center;
 }
 
-.uktell-sim-card{
-    text-align: center;
-    padding: 35px;
-    background-color: #e7e7e8;
-    border-radius: 10px;
-}
-.sim-title{
-    font-size: 56px;
-    font-family: 'Bebas Neue', cursive; 
-}
-.sim-text{
+
+.btn-purchaise{
+    padding: 10px 25px;
+    color: #169FD8;
+    background-image: linear-gradient(180deg, #fff, #D8D8D8);
+    border-radius: 35px;
+    color: #169FD8;
     font-size: 26px;
     font-weight: 700;
-    color: #2f2f2f;
-    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.534);
 }
 
-.text-color{
+.btn-purchaise:hover{
     color: #169FD8;
+    background-image: linear-gradient(180deg, #fff, #D8D8D8);
 }
 
-.btn-see-details{
-    position: relative;
-    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 8px 40px 8px 20px;
-    border-radius: 25px;
-}
-.btn-see-details:hover{
-    color: #fff;
-}
-.btn-next-icon{
-    position: absolute;
-    border: 3px solid #1cadeb;
-    background-color:#169FD8 ;
-    padding: 18px;
-    bottom:-10px;
-    right: -25px;
-    border-radius: 50%;
-}
 
-.choose-resion-section{
-    background-color: #6DCFF6;
-    color: #fff;
-}
 
-.benefit-icon{
-    width: 50px;
-}
 
-.choosen-q-title{
-    font-weight: 700;
-    font-size: 36px;
-}
+
 
 
 
@@ -321,6 +316,7 @@ footer p{
 
 
 
+
 /* ===================================Responsive ========================== */
 /*  Mobile Screen */
 @media only screen and (min-width: 300px) and (max-width: 500px){
@@ -343,52 +339,14 @@ footer p{
         margin-right: 10px;
     }
 
-    .banner-section{
-        background-image: url(../image/top-banner.png);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 50px 20px;
-    }
-    
-    .banner-bg-title{
-        font-size: 80px;
-    }
-    .banner-sm-title{
-        font-size: 50px;
-    }
-    .banner-text{
-        color: white;
-        font-family: 'Poppins', sans-serif; 
-        font-size: 22px;
-        font-weight: 500;
-    }
-    .content-title{
-        font-size: 25px;
-        padding: 0;
-    }
-    .btn-view-plan{
-        margin-bottom: 10px;
-    }
-        
-    /* Sim Offer */
-    .sim-section{
-        padding: 50px 0;
+
+    .account-page-big-title{
+        font-size: 70px;
+        padding: 100px 0;
     }
 
-    .uktell-sim-card{
-        padding: 20px 10px;
-        
-    }
-    .sim-title{
-        font-size: 38px;
-    }
-    .sim-text{
-        font-size: 18px;        
-    }
-    .choosen-q-title{
-        font-size: 24px;
-    }
+    
+
     .footer-box{
         background-color: #169FD8;
     }
