@@ -65,24 +65,24 @@
 
 
 /*=============================== Banner Section Css =============================== */
-.account-page-banner{
-    background-image: url(../image/after-login-bg.png);
+.move-to-us-banner{
+    background-image: url(../image/move-to-us.png);
     background-position: center center;
     background-size: cover;
-    padding: 250px 0;
+    padding: 10px 0;
 }
 
-.account-page-big-title{
+.move-to-us-big-title{
     font-family: 'Bebas Neue', cursive;
     font-size: 90px;
-    padding: 150px 0;
+    padding: 180px 0;
     text-align: center;
 }
 
-.account-page-text{
-    margin: 20px 0;
+.move-to-us-text{
+    padding: 80px 180px;
 }
-.account-page-text p{
+.move-to-us-text p{
     font-weight: 500;
 }
 
@@ -95,12 +95,12 @@
     font-weight: 700;
 }
 
-.account-page-text .form-control{
+.move-to-us-text .form-control{
     border-radius: 20px;
     background-color: #c4e0e9;
     padding: 8px 15px;
 }
-.account-page-text .form-control::placeholder{
+.move-to-us-text .form-control::placeholder{
     color: #000;
     font-size: 18px;
 }
@@ -117,156 +117,77 @@
 }
 
 
-/* single package (Circle) css */
 
-.pkg-volume-text{
+
+.step-button-box{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.F-step{
+    position: relative;
     background-color: #169FD8;
+    color:#fff;
+    padding: 10px;
+    width: 70px;
     border-radius: 50%;
-    width: 400px;
-    padding: 50px;
     text-align: center;
-}
-.volume-title{
-    font-size: 58px;
     font-weight: 700;
 }
 
-
-.single-volume{
-    background-color: #169FD8;
-    border-radius: 50%;
-    padding: 25px;
-    text-align: center;
-}
-
-.single-v-title{
-    font-size: 35px;
-    font-weight: 700;
-}
-.single-volume h2{
-    font-size: 32px;
-    margin-bottom: 0;
-}
-
-.progress{
-    height:15px;
-    border-radius: 5px;
-    width: 70%;
-    text-align: center;
-    margin: 5px auto 15px auto;
-}
-
-.btn-account{
-    width: 150px;
-    background-image: linear-gradient(180deg, #FDFDFD, #D8D8D8);
-    color: #169FD8;
-    font-weight: 700;
-    border: none;
-    box-shadow: 0px 3px 8px gray;
-    border-radius: 20px;
-    margin-left: 20px;
-}
-.btn-account-active, .btn-account:hover{
-    background-image: linear-gradient(180deg, #B0B4B5, #DCDCDA);
-    color: #494949;
-}
-
-
-
-
-
-/*================== Package Card =================*/
-
-.bg-package{
-    background-color: #E9ECFA;
-    color: #169FD8;
-    border-radius: 12px;
-}
-.package-list{
-    list-style: none;
-    padding: 10px 5px 0px 10px;
-    margin-bottom: 5px;
-}
-.package-list li{
-    border-bottom: 1px solid lightgray;
-    line-height: 30px;
-    font-weight: 700;
-}
-.border-none{
-    border-bottom: none !important;
-}
-.package-title{
-    margin-top: 75px;
-    margin-bottom: 60px;
-    background-color:#000;
-    color: #169FD8;
+.F-step:after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 90px;
+    background: #169FD8;
     border-radius: 10px;
-}
-.package-title li{
-    border: none;
-}
-
-.small-pkge-text{
-    font-size: 14px;
+    top: 50%;
+    left: 100%;
 }
 
-.bg-package:hover{
-    background-color: #169FD8;
-    color: #fff;
-}
-
-.bg-package-special-hover:hover> .bg-package-hover{
-    background-color: #169FD8;
-    color: #fff;
-    border-radius: 8px;
-}
-.bg-package-special-hover:hover> .bg-package-hover > .bg-package{
-    background-color: #169FD8;
-    color: #fff;
-    border-radius: 8px;
-}
-
-.bg-package-special-hover:hover > button{
-    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
-    color: white
-}
-
-.btn-view-plan{
-    color: #fff;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    padding: 5px 25px;
-    font-weight: 700;
-}
-
-
-
-.blank-box{
-    padding: 80px 0;
-    background-color: #169FD8;
+.S-step{
+    position: relative;
+    background-color: gray;
+    color:#fff;
+    padding: 10px;
+    width: 70px;
+    border-radius: 50%;
     text-align: center;
-}
-
-
-.btn-purchaise{
-    padding: 10px 25px;
-    color: #169FD8;
-    background-image: linear-gradient(180deg, #fff, #D8D8D8);
-    border-radius: 35px;
-    color: #169FD8;
-    font-size: 26px;
     font-weight: 700;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.534);
 }
 
-.btn-purchaise:hover{
-    color: #169FD8;
-    background-image: linear-gradient(180deg, #fff, #D8D8D8);
+.S-step:after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 90px;
+    background:gray;
+    border-radius: 10px;
+    top: 50%;
+    left: 100%;
 }
 
+.L-step{
+    position: relative;
+    background-color: gray;
+    color:#fff;
+    padding: 10px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+}
 
-
-
+.varify-number{
+    width: 60%;
+    text-align: center;
+    margin: 60px auto 0 auto;
+    
+}
 
 
 
@@ -340,46 +261,65 @@ footer p{
     }
 
 
-    .account-page-big-title{
+    .move-to-us-big-title{
         font-size: 70px;
         padding: 100px 0;
     }
 
-
-
         
-    /* single package (Circle) css */
+    .move-to-us-text{
+        padding: 80px 20px;
+    }
+    .move-to-us-text p{
+        font-weight: 500;
+    }
 
-    .pkg-volume-text{
-        background-color: #169FD8;
-        border-radius: 50%;
-        width: 400px;
-        padding: 30px;
+
+
+    .step-button-box{
+        width: 95%;
         text-align: center;
-        margin-bottom: 20px;
-    }
-    .volume-title{
-        font-size: 48px;
-        font-weight: 700;
-    }
-
-
-    .single-volume{
-        padding: 30px 30px;
-        margin: 20px 0;
-    }
-
-    .single-v-title{
-        font-size: 35px;
-        font-weight: 700;
-    }
-
-    .btn-account{
-        width: 110px;
-        margin-left: 10px;
-        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
     }
     
+    .F-step{
+        width: 60px;
+    }
+    
+    .F-step:after{
+        width: 25px;
+    }
+    
+    .S-step{
+        width: 60px;
+    }
+    
+    .S-step:after{
+        width: 25px;
+    }
+    
+    .L-step{
+        position: relative;
+        background-color: gray;
+        color:#fff;
+        padding: 10px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .varify-number{
+        width: 90%;        
+    }
+    
+
+
+
+
+
 
     .footer-box{
         background-color: #169FD8;

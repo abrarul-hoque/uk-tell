@@ -65,24 +65,24 @@
 
 
 /*=============================== Banner Section Css =============================== */
-.account-page-banner{
-    background-image: url(../image/after-login-bg.png);
+.checkout-banner{
+    background-image: url(../image/checkout.png);
     background-position: center center;
     background-size: cover;
-    padding: 250px 0;
+    padding: 20px 0;
 }
 
-.account-page-big-title{
+.checkout-big-title{
     font-family: 'Bebas Neue', cursive;
     font-size: 90px;
-    padding: 150px 0;
+    padding: 170px 0;
     text-align: center;
 }
 
-.account-page-text{
+.checkout-text{
     margin: 20px 0;
 }
-.account-page-text p{
+.checkout-text p{
     font-weight: 500;
 }
 
@@ -95,12 +95,12 @@
     font-weight: 700;
 }
 
-.account-page-text .form-control{
+.checkout-text .form-control{
     border-radius: 20px;
     background-color: #c4e0e9;
     padding: 8px 15px;
 }
-.account-page-text .form-control::placeholder{
+.checkout-text .form-control::placeholder{
     color: #000;
     font-size: 18px;
 }
@@ -117,15 +117,18 @@
 }
 
 
+
+.checkout-box{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
 /* single package (Circle) css */
 
-.pkg-volume-text{
-    background-color: #169FD8;
-    border-radius: 50%;
-    width: 400px;
-    padding: 50px;
-    text-align: center;
-}
 .volume-title{
     font-size: 58px;
     font-weight: 700;
@@ -135,8 +138,11 @@
 .single-volume{
     background-color: #169FD8;
     border-radius: 50%;
-    padding: 25px;
+    padding: 50px 10px;
     text-align: center;
+    box-shadow: 3px 2px 3px gray;
+    height: 300px;
+    width: 300px;
 }
 
 .single-v-title{
@@ -144,131 +150,59 @@
     font-weight: 700;
 }
 .single-volume h2{
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 0;
 }
 
-.progress{
-    height:15px;
-    border-radius: 5px;
-    width: 70%;
-    text-align: center;
-    margin: 5px auto 15px auto;
+
+
+.trash-icon{
+    width: 25px;
+    position: absolute;
+    right: 0;
 }
 
-.btn-account{
-    width: 150px;
-    background-image: linear-gradient(180deg, #FDFDFD, #D8D8D8);
+
+.quantity-box{
+    background-color: #e8e8e8;
+}
+
+.quantity{
+    margin-bottom: 0;
+    padding: 0 10px;
     color: #169FD8;
     font-weight: 700;
-    border: none;
-    box-shadow: 0px 3px 8px gray;
-    border-radius: 20px;
-    margin-left: 20px;
-}
-.btn-account-active, .btn-account:hover{
-    background-image: linear-gradient(180deg, #B0B4B5, #DCDCDA);
-    color: #494949;
+    
 }
 
-
-
-
-
-/*================== Package Card =================*/
-
-.bg-package{
-    background-color: #E9ECFA;
-    color: #169FD8;
-    border-radius: 12px;
+.qty-price{
+    margin-top: 130px;
 }
-.package-list{
-    list-style: none;
-    padding: 10px 5px 0px 10px;
-    margin-bottom: 5px;
+
+.price-summary{
+    padding: 10px 20px;
+    background-color: #ccf2fa;
+    margin-top: 50px;
 }
-.package-list li{
-    border-bottom: 1px solid lightgray;
-    line-height: 30px;
+.btn-checkout{
+    padding: 10px 20px;
+    background-color: #ccf2fa;
     font-weight: 700;
+    font-size: 22px;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 200px;
+    box-shadow: 0px 2px 8px lightgray;
 }
-.border-none{
-    border-bottom: none !important;
-}
-.package-title{
-    margin-top: 75px;
+
+.bank-card{
     margin-bottom: 60px;
-    background-color:#000;
-    color: #169FD8;
-    border-radius: 10px;
 }
-.package-title li{
-    border: none;
+.bank-card img{
+    width: 90px;
+    height: 40px;
+    padding-left: 20px;
 }
-
-.small-pkge-text{
-    font-size: 14px;
-}
-
-.bg-package:hover{
-    background-color: #169FD8;
-    color: #fff;
-}
-
-.bg-package-special-hover:hover> .bg-package-hover{
-    background-color: #169FD8;
-    color: #fff;
-    border-radius: 8px;
-}
-.bg-package-special-hover:hover> .bg-package-hover > .bg-package{
-    background-color: #169FD8;
-    color: #fff;
-    border-radius: 8px;
-}
-
-.bg-package-special-hover:hover > button{
-    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
-    color: white
-}
-
-.btn-view-plan{
-    color: #fff;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    padding: 5px 25px;
-    font-weight: 700;
-}
-
-
-
-.blank-box{
-    padding: 80px 0;
-    background-color: #169FD8;
-    text-align: center;
-}
-
-
-.btn-purchaise{
-    padding: 10px 25px;
-    color: #169FD8;
-    background-image: linear-gradient(180deg, #fff, #D8D8D8);
-    border-radius: 35px;
-    color: #169FD8;
-    font-size: 26px;
-    font-weight: 700;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.534);
-}
-
-.btn-purchaise:hover{
-    color: #169FD8;
-    background-image: linear-gradient(180deg, #fff, #D8D8D8);
-}
-
-
-
-
-
-
 
 
 
@@ -340,7 +274,7 @@ footer p{
     }
 
 
-    .account-page-big-title{
+    .checkout-big-title{
         font-size: 70px;
         padding: 100px 0;
     }
@@ -350,36 +284,56 @@ footer p{
         
     /* single package (Circle) css */
 
-    .pkg-volume-text{
-        background-color: #169FD8;
-        border-radius: 50%;
-        width: 400px;
-        padding: 30px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .volume-title{
-        font-size: 48px;
-        font-weight: 700;
-    }
-
 
     .single-volume{
-        padding: 30px 30px;
-        margin: 20px 0;
+        height: 250px;
+        width: 250px;
+    }
+    .single-volume h2{
+        font-size: 24px;
+    }
+    .volume-title{
+        font-size: 46px;
     }
 
-    .single-v-title{
-        font-size: 35px;
-        font-weight: 700;
+    .trash-icon{
+        top: -20px;
+        right: -20px;
     }
 
-    .btn-account{
-        width: 110px;
-        margin-left: 10px;
-        margin-bottom: 15px;
+    
+    .checkout-box{
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .qty-price{
+        align-items: center;
+        margin-top: 40px;
+    }
+    .btn-checkout{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bank-card img{
+        width: 70px;
+        height: 40px;
+        padding-left: 20px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
     
+
+
+
+
+
 
     .footer-box{
         background-color: #169FD8;

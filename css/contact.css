@@ -1,0 +1,229 @@
+.uktell-navbar{
+    background-image: url(../image/navbar.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 0 25px;
+}
+
+.brand-img{
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondary-nav{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.secondary-nav .nav-item a{
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.active{
+    color: #189fd8 !important;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* Navbar  behavior on Scrolling */
+.primary-nav {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+ }
+
+.shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 80px !important;
+}
+
+.shrink .navbar-brand img{
+    width: 100px !important;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+
+
+
+/*=============================== Banner Section Css =============================== */
+.contact-banner{
+    background-image: url(../image/contact-bg.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.contact-big-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    padding: 80px 0 230px;
+    text-align: center;
+}
+
+.contact-text{
+    margin: 80px 0 20px;
+}
+
+
+
+.text-color{
+    color: #169FD8;
+}
+.t-bold{
+    font-weight: 700;
+}
+
+
+.btn-color{
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 35px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px gray;
+}
+
+.contact-option-img{
+    padding: 20px;
+    width: 80%;
+
+}
+
+.contact-form{
+    width: 70%;
+}
+
+
+.contact-information{
+    padding: 20px 140px;
+}
+.contact-information p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.contact-information .form-control{
+    border-radius: 20px;
+    background-color: #c4e0e9;
+    padding: 8px 15px;
+}
+.contact-information .form-control::placeholder{
+    color: #000;
+    font-size: 18px;
+}
+
+
+
+/* Footer section Css */
+footer{
+    background-image: url(../image/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-logo{
+    width: 200px;
+    margin: 30px;
+}
+
+footer h6{
+    margin-bottom:8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+footer p{
+    margin-bottom:8px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.subscribe-email{
+    font-size: 14px;
+    padding: 2px 8px;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-logo{
+    width: 30px;
+    padding: 5px;
+}
+.social-block{
+    border-radius: 15px;
+    width: 80%;
+    float:right;
+}
+
+
+
+
+/* ===================================Responsive ========================== */
+/*  Mobile Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .uktell-navbar{
+        background-image: url(../image/navbar.png);
+        background-position: center center;
+        background-size: cover;
+        padding: 0 15px;
+    }
+    .secondary-nav{
+        margin-bottom: 20px;
+        display: block;
+    }
+    .secondary-nav .nav-item{
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+    }
+    .search-box-res{
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+
+    .contact-big-title{
+        font-size: 70px;
+        padding: 100px 0;
+    }
+
+
+    
+    .contact-information{
+        padding: 40px 20px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    
+    .g-recaptcha{
+        max-width: 100%;
+    }
+    
+    .footer-box{
+        background-color: #169FD8;
+    }
+    .social-block{
+        margin: 15px 0;
+    }
+}
