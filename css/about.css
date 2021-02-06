@@ -83,7 +83,7 @@
     margin: 100px 0;
 }
 .about-text p{
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -91,7 +91,9 @@
 .text-color{
     color: #169FD8;
 }
-
+.t-bold{
+    font-weight: 700;
+}
 
 /* Footer section Css */
 footer{

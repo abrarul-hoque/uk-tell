@@ -1,0 +1,337 @@
+.uktell-navbar{
+    background-image: url(../image/navbar.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 0 25px;
+}
+
+.brand-img{
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondary-nav{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.secondary-nav .nav-item a{
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.active{
+    color: #189fd8 !important;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* Navbar  behavior on Scrolling */
+.primary-nav {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+ }
+
+.shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 80px !important;
+}
+
+.shrink .navbar-brand img{
+    width: 100px !important;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+
+
+
+/*=============================== Banner Section Css =============================== */
+.sim-offer-banner{
+    background-image: url(../image/SIM-offer-page.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.sim-offer-big-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    padding: 170px 0;
+    text-align: center;
+}
+
+.sim-offer-text{
+    margin: 20px 0;
+}
+.sim-offer-text p{
+    font-weight: 500;
+}
+
+
+
+.text-color{
+    color: #169FD8;
+}
+.t-bold{
+    font-weight: 700;
+}
+
+
+.btn-color{
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 45px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px gray;
+}
+
+.btn-color:hover{
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
+    color: #fff;
+}
+
+.offer-cards{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+    border-radius: 65px;
+    margin-bottom: 20px;
+}
+.sim-offer-icon{
+    width: 100px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 8px gray;;
+}
+.sim-offer-title{
+    font-weight: 700;
+    margin-left: 30px;
+}
+.btn-sim-offer{
+    text-align: end;
+    margin-left:auto;
+    margin-right: 30px;
+}
+
+
+
+/*================== Package Card =================*/
+
+.bg-package{
+    background-color: #E9ECFA;
+    color: #169FD8;
+    border-radius: 12px;
+}
+.package-list{
+    list-style: none;
+    padding: 10px 5px 0px 10px;
+    margin-bottom: 5px;
+}
+.package-list li{
+    border-bottom: 1px solid lightgray;
+    line-height: 30px;
+    font-weight: 700;
+}
+.border-none{
+    border-bottom: none !important;
+}
+.package-title{
+    margin-top: 75px;
+    margin-bottom: 60px;
+    background-color:#000;
+    color: #169FD8;
+    border-radius: 10px;
+}
+.package-title li{
+    border: none;
+}
+
+.small-pkge-text{
+    font-size: 14px;
+}
+
+.bg-package:hover{
+    background-color: #169FD8;
+    color: #fff;
+}
+
+.bg-package-special-hover:hover> .bg-package-hover{
+    background-color: #169FD8;
+    color: #fff;
+    border-radius: 8px;
+}
+.bg-package-special-hover:hover> .bg-package-hover > .bg-package{
+    background-color: #169FD8;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.bg-package-special-hover:hover > button{
+    background-image: linear-gradient(45deg, #1cadeb, #167b9c);
+    color: white
+}
+
+.btn-view-plan{
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 5px 25px;
+    font-weight: 700;
+}
+
+
+
+/* Why Choose Options */
+.choose-reason-box{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.choose-reason-box img{
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* Footer section Css */
+footer{
+    background-image: url(../image/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-logo{
+    width: 200px;
+    margin: 30px;
+}
+
+footer h6{
+    margin-bottom:8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+footer p{
+    margin-bottom:8px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.subscribe-email{
+    font-size: 14px;
+    padding: 2px 8px;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-logo{
+    width: 30px;
+    padding: 5px;
+}
+.social-block{
+    border-radius: 15px;
+    width: 80%;
+    float:right;
+}
+
+
+
+
+/* ===================================Responsive ========================== */
+/*  Mobile Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .uktell-navbar{
+        background-image: url(../image/navbar.png);
+        background-position: center center;
+        background-size: cover;
+        padding: 0 15px;
+    }
+    .secondary-nav{
+        margin-bottom: 20px;
+        display: block;
+    }
+    .secondary-nav .nav-item{
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+    }
+    .search-box-res{
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+
+    .sim-offer-big-title{
+        font-size: 70px;
+        padding: 100px 0;
+    }
+
+
+
+    .offer-cards{
+        width: 95%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #eeeeee;
+        border-radius: 65px;
+        margin-bottom: 20px;
+    }
+    .sim-offer-icon{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px gray;;
+    }
+    .sim-offer-title{
+        font-weight: 700;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    .btn-sim-offer{
+        text-align: end;
+        margin-left:auto;
+        margin-right: 10px;
+        padding:8px 20px;
+        font-size: 16px;
+    }
+    
+        
+    
+
+    .footer-box{
+        background-color: #169FD8;
+    }
+    .social-block{
+        margin: 15px 0;
+    }
+}
